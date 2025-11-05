@@ -1,0 +1,91 @@
+img{
+    width: 5%;
+    display: flex;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('../jomss/images/d0827bf5-067b-4fcf-9167-1db7774c16b1.jpg') no-repeat center center/cover;
+    color:gold;
+    text-align: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 100px;
+    position: sticky;
+    top: 0%;
+}
+
+nav .logo {
+    height: 50px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+.header {
+    margin-top: 100px;
+}
+
+.header h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.image-gallery {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 280px;
+    height: 270px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
